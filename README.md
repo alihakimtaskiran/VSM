@@ -1,7 +1,7 @@
 <h1>Documentation</h1>
 <h2>What's This&How to work?</h2>
 <p>  This module finds cosine similarity of two sentences, paragraphs etc... You can find similarity of the sentences paragraphs with vsm module. Vsm module clears text from special charecters and converts the text into vectors. After that finds angle between two vectors. Similarity and angle are inversely proportional. In the other words,if cosine of the angle close 1, the sentences are similar. It finds similarity with formul that shown in Figure-1</p>
-<img src="https://raw.githubusercontent.com/alihakimtaskiran/NLP/master/Cosine%20Similarity/formula.png">
+<img src="https://raw.githubusercontent.com/alihakimtaskiran/NLP/master/formula.png">
 <center><pre>                                                 Figure-1</pre></center>
 <h2>2.)System Requirements</h2>
 <ul>
