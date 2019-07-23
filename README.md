@@ -1,15 +1,15 @@
 <h1>Documentation</h1>
-<h2>What's This&How to work?</h2>
+<h2>1-)What's This&How to work?</h2>
 <p>  This module finds cosine similarity of two sentences, paragraphs etc... You can find similarity of the sentences paragraphs with vsm module. Vsm module clears text from special charecters and converts the text into vectors. After that finds angle between two vectors. Similarity and angle are inversely proportional. In the other words,if cosine of the angle close 1, the sentences are similar. It finds similarity with formul that shown in Figure-1</p>
 <img src="https://raw.githubusercontent.com/alihakimtaskiran/NLP/master/formula.png">
 <center><pre>                                                 Figure-1</pre></center>
-<h2>2.)System Requirements</h2>
+<h2>2-)System Requirements</h2>
 <ul>
   <li>Python 3</li>
   <li>Numpy</li>
   <li>It runs on both 32-bit and 64-bit</li>
 </ul>
-<h2>Installation</h2>
+<h2>3-)Installation</h2>
 
 <font size="7"><b><p>  You can run the module including into working directory. 
 You can also install it into python3. After the installation, you can run the module without including into working directory.</p></b></font>
@@ -23,7 +23,7 @@ Follow this steps for install the module(optional)
   <li>If you haven't installed numpy, install the numpy with <code>pip3 install numpy</code></li>
  </ol>
 <p>Finally, you can use the module in python3 just one lines of code:<code>import vsm</code></p>
-<h2>Functions of Module?</h2>
+<h2>4-)Functions of Module?</h2>
 <p>  Here you are a tree for the commands</p>
 <pre>
 <code>
