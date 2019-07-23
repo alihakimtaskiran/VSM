@@ -44,7 +44,7 @@ vsm---|
   <li><code>vsm.import_contents(string)</code><pre><b> type:function</b> This function is very important. It imports strings for computing similarity. The module can't work correctly without importing strings. You have to import all sentences with <code>vsm.import_contents(sentence)</code> before other calculations. The function clears text from special charecters, then it appends all words into <code>vsm.wordlist</code>. </pre></li>
   <li><code>vsm.func</code><pre><b>type:class</b> This class has useful functions such as <code>is_in()</code>, <code>doc2vec()</code> and <code>cossim()</code></pre>
   <ul>
-    <li><code>vsm.func.is_in(string)</code><pre><b>type:function</b> This function searches a word in <code>vsm.wordlist</code></pre>. Then returns True or False.</li>
+    <li><code>vsm.func.is_in(string)</code><pre><b>type:function</b> This function searches a word in <code>vsm.wordlist</code>. Then returns True or False.</pre></li>
     <li><code>vsm.func.doc2vec(string)</code><pre><b>type:function</b> It converts sentence or paragraph into vector. It returns one dimensional numpy array. The vector has frequency of words in the text. <b>Caution:<b> You have to import the text with <code>vsm.import_contents()</code> before using. Otherwise you get error.</pre></li>
     <li><code>vsm.func.cossim(np.array,np.array)</code><pre><b>type:function</b> The function gets two vector as input. It returns cosine similarity of two vectors. dimensions of vectors must be equal. If you import all texts at the before vector conversion, you don't get error.</pre></li>
   </ul>
