@@ -22,8 +22,7 @@ Follow this steps for install the module(optional)
   <li><code>sudo cp vsm.py /usr/lib/python3.6/</code></li>
   <li>If you haven't installed numpy, install the numpy with <code>pip3 install numpy</code></li>
  </ol>
- <br/>
-<p>You can use the module in python3 just one lines of code:<code>import vsm</code></p>
+<p>Finally, you can use the module in python3 just one lines of code:<code>import vsm</code></p>
 <h2>Functions of Module?</h2>
 <pre>  Here you are a tree for the commands</pre>
 <pre>
