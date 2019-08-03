@@ -8,7 +8,7 @@ Created on Sun Jul 21 13:55:57 2019
 import numpy as np
 wordlist=[]
 
-def import_contents(_doc_,lang_type):
+def import_contents(_doc_,lang_type=0):
     if lang_type==0:
         _doc_=_doc_.lower()
         _doc_=_doc_.replace('"',' ')
