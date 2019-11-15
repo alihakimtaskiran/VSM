@@ -18,7 +18,7 @@ Follow this steps for install the module(optional)
 <ol>
   <li>Open the terminal. After that</li>
   <li><code>git clone https://github.com/alihakimtaskiran/NLP.git</code></li>
-  <li><code>cd "NLP/Cosine Similarity"</code></li>
+  <li><code>cd "VSM"</code></li>
   <li><code>sudo cp vsm.py /usr/lib/python3.6/</code></li>
   <li>If you haven't installed numpy, install the numpy with <code>pip3 install numpy</code></li>
  </ol>
